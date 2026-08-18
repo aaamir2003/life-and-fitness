@@ -1,10 +1,15 @@
-"homepage": "https://github.com/aaamir2003/life-and-fitness/",
 {
+  "homepage": "https://aaamir2003.github.io/life-and-fitness/",
+
   "name": "react-vite-tailwind",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
